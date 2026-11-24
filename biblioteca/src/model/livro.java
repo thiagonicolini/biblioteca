@@ -1,14 +1,14 @@
 package model;
 
 // aqui a gente cria quais dados vão ter na classe livro
- public class Livro{
+ public class livro{
     private int id;
     private String titulo;
     private int ano;
     private String autor;
     private boolean emprestado;
 
-    // deixando o boolean 'emprestado' publico ---- analogia = é como se abrissimos uma porta para as pessoas verem esse atributo
+    // deixando o boolean 'emprestado' publico ---- analogia = é como se abrissemos uma porta para as pessoas verem esse atributo
   public boolean isEmprestado(){
     return emprestado;
   
@@ -29,9 +29,11 @@ package model;
     return id;
   }
 
-public void setEmprestado(boolean emprestado){
-    this.emprestado = emprestado; 
-}
+  public void setEmprestado(boolean emprestado){
+    this.emprestado = emprestado;
+  }
+
+  
 
  }
 
