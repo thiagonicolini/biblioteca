@@ -33,7 +33,10 @@ package model;
     this.emprestado = emprestado;
   }
 
-  
+  @Override 
+  public String toString(){
+    return "Livro: " + titulo + " | " + "Id: " + " | " + "Autor: " + " | " + "Ano " + " | " + (emprestado ? "Emprestado" : "Disponível"); 
+  }
 
  }
 
