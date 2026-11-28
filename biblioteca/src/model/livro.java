@@ -1,7 +1,7 @@
 package model;
 
 // aqui a gente cria quais dados vão ter na classe livro
- public class livro{
+ public class Livro{
     private int id;
     private String titulo;
     private int ano;
